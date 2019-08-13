@@ -31,7 +31,7 @@ class RobotFrameworkSpeechToTextNlp(object):
 
     def Extract_Info_Noun_Chunks(self, audioFile):
         Resultval = []
-        resp = self.VoiceConv(audioFile)
+        resp = self.Voice_Conv(audioFile)
         doc = self.nlp(resp)
         for token in doc.noun_chunks:
             Resultval.append(token)
@@ -39,7 +39,7 @@ class RobotFrameworkSpeechToTextNlp(object):
 
     def Parts_Of_Speech(self, audioFile):
         Resultval = []
-        resp = self.VoiceConv(audioFile)
+        resp = self.Voice_Conv(audioFile)
         doc = self.nlp(resp)
         #p_stemmer = PorterStemmer()
         for words in doc:
@@ -50,7 +50,7 @@ class RobotFrameworkSpeechToTextNlp(object):
 
     def Lemma(self, audioFile):
         Resultval = []
-        resp = self.VoiceConv(audioFile)
+        resp = self.Voice_Conv(audioFile)
         doc = self.nlp(resp)
 
 
