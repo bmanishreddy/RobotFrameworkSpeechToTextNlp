@@ -10,7 +10,9 @@ Example request that you can make to the library
 
 
 ###    code
-##  *** Settings ***
+
+'''
+*** Settings ***
 Test Timeout      15 minutes
 Resource          Resource.txt
 
@@ -26,7 +28,7 @@ InitialRequest
     ${CE}    Parts Of Speech    Conv2.wav
     log    ${CE}
 
-
+'''
 
 Result wiould be somethig like this :- 
 
