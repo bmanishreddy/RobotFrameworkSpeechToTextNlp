@@ -10,7 +10,7 @@ Example request that you can make to the library
 
 
 ###    code
-*** Settings ***
+##  *** Settings ***
 Test Timeout      15 minutes
 Resource          Resource.txt
 
