@@ -1,7 +1,6 @@
 Make sure you install the following packages in your system 
-
-pip install speech_recognition 
-pip install spacy
+#pip install speech_recognition 
+#pip install spacy
 
 
 place this perticular package under your site-packages 
