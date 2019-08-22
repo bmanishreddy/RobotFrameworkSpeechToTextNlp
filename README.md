@@ -1,9 +1,10 @@
-Make sure you install the following packages in your system 
+Make sure you install the following packages in your system :-
+
 pip install speech_recognition 
 pip install spacy
 
 
-place this perticular package under your site-packages 
+place this perticular package under your site-packages(inside your python installation) 
 
 
 Example request that you can make to the library 
@@ -31,7 +32,5 @@ InitialRequest
 
 ```
 
-
-Result wiould be somethig like this :- 
 
 
